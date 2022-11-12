@@ -1,0 +1,27 @@
+* {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: calc(10 * 100vw / 1920);
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: $bg;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: calc(10 * 100vw / 375);
+  }
+
+  body {
+    font-size: 1.4rem;
+  }
+}

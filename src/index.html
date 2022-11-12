@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inssmart</title>
+    <link rel="shortcut icon" href="./img/bike.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <section class="bikes">
+      <h1 class="visually-hidden">Типы велосипедов</h1>
+      <div class="container bikes__container">
+        <div id="tabs" class="tabs bikes__tabs">
+          <!--  -->
+          <button class="control tabs__control">Горный велосипед</button>
+          <div class="info tabs__info">
+            <div class="info__img" style="background-image: url('./assets/mountain-bike.png')"></div>
+            <div class="info__text-block">
+              <h2 class="info__title">Велосипед STELS Navigator 510 HD 26 2022</h2>
+              <p class="info__text">
+                Данный велосипед с колесами 26 дюймов хорошо подходит высоким подросткам. Прогиб рамы и небольшой размер
+                рамы расчитан на рост от 135 до 165 см.
+              </p>
+              <p class="info__text">
+                Суммарный вес велосипеда был снижен до 16,9 кг, так как рама была изготовлена с учетом использования
+                велосипеда подростками.
+              </p>
+            </div>
+            <div class="info__divider"></div>
+            <p class="info__subtitle">Характеристики</p>
+            <ul class="info__list info__list_type_numeric">
+              <li class="info__item">Двойной обод</li>
+              <li class="info__item">Алюминиевый сплав</li>
+              <li class="info__item">Колеса диаметром 26 дюймов</li>
+              <li class="info__item">Покрышки 26х1,95"</li>
+            </ul>
+          </div>
+
+          <!--  -->
+          <button class="control tabs__control">Женский велосипед</button>
+          <div class="info tabs__info">
+            <div class="info__img" style="background-image: url('./assets/womens-bike.png')"></div>
+            <div class="info__text-block">
+              <h2 class="info__title">Велосипед SCHWINN Traveler women 2022</h2>
+              <p class="info__text">
+                Женский велосипед со стальной рамой Classic step-true lightweight позволяет девушкам без проблем его
+                перемещать.
+              </p>
+              <p class="info__text">
+                На данном велосипеде имеется 7 скоростей с переключателями от Shimano, а жесткая вилка обеспечивает
+                отличную управляемость. Подходит для катания по асфальтированным поверхностям.
+              </p>
+            </div>
+            <div class="info__divider"></div>
+            <p class="info__subtitle">Характеристики</p>
+            <ul class="info__list info__list_type_marked">
+              <li class="info__item">Стальная рама</li>
+              <li class="info__item">Жесткая вилка</li>
+              <li class="info__item">Колеса диаметром 24 дюймов</li>
+              <li class="info__item">7 скоростей</li>
+            </ul>
+          </div>
+
+          <!--  -->
+          <button class="control tabs__control">Горный велосипед</button>
+          <div class="info tabs__info">
+            <div class="info__img" style="background-image: url('./assets/mountain-bike.png')"></div>
+            <div class="info__text-block">
+              <h2 class="info__title">Велосипед STELS Navigator 510 HD 26 2022</h2>
+              <p class="info__text">
+                Данный велосипед с колесами 26 дюймов хорошо подходит высоким подросткам. Прогиб рамы и небольшой размер
+                рамы расчитан на рост от 135 до 165 см.
+              </p>
+              <p class="info__text">
+                Суммарный вес велосипеда был снижен до 16,9 кг, так как рама была изготовлена с учетом использования
+                велосипеда подростками.
+              </p>
+            </div>
+            <div class="info__divider"></div>
+            <p class="info__subtitle">Характеристики</p>
+            <ul class="info__list info__list_type_numeric">
+              <li class="info__item">Двойной обод</li>
+              <li class="info__item">Алюминиевый сплав</li>
+              <li class="info__item">Колеса диаметром 26 дюймов</li>
+              <li class="info__item">Покрышки 26х1,95"</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="hidden" hidden>
+      <div class="extra">
+        <p class="extra__subtitle">Добавить характеристику</p>
+        <form action="https://jsonplaceholder.typicode.com/posts" name="feature" method="post" class="extra__form">
+          <input
+            type="text"
+            class="input animate extra__input"
+            placeholder="Алюминиевый сплав"
+            name="feature"
+            required
+          />
+          <button type="submit" class="button button_type_main">Добавить</button>
+        </form>
+        <div class="extra__buttons">
+          <button type="button" class="button button_type_main">Окей</button>
+          <button type="button" class="button button_type_alt">Отмена</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

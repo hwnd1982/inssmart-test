@@ -1,0 +1,24 @@
+.tabs__control {
+  grid-row: 1;
+}
+
+@media (max-width: 767px) {
+  .tabs__control {
+    display: flex;
+    justify-content: space-between;
+    grid-row: auto;
+    margin-bottom: 2rem;
+  }
+
+  .tabs__control:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .tabs__control::after {
+    content: '';
+    width: 2.4rem;
+    height: 2.4rem;
+    background-image: url('../img/angle.svg');
+    background-repeat: no-repeat;
+  }
+}

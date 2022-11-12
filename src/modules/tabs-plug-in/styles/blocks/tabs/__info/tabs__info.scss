@@ -1,0 +1,16 @@
+.tabs__info {
+  display: none;
+  grid-row: 2;
+  grid-column: 1 / var(--tabs-control-count);    
+}
+
+@media (max-width: 767px) {
+  .tabs__info {
+    grid-row: auto;
+    grid-column: auto;
+  }
+    
+  .tabs__info:not(:last-child)  {
+    margin-bottom: 2rem;
+  }
+}

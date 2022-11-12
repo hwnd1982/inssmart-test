@@ -1,0 +1,14 @@
+.info__text {
+  margin: 0 0 1.6rem;
+  color: $text;
+}
+
+.info__text:last-child {
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .info__text {
+    margin-bottom: 1.5rem;
+  }
+}

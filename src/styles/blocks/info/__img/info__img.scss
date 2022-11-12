@@ -1,0 +1,20 @@
+.info__img {
+  position: absolute;
+  top: 4rem;
+  left: -6.8rem;
+  width: 35.8rem;
+  height: 23.2rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 767px) {
+  .info__img {
+    position: static;
+    width: 29.5rem;
+    height: 19.2rem;
+    align-self: center;
+    margin-bottom: 2.1rem;
+  }
+}

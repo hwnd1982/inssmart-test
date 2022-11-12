@@ -1,0 +1,18 @@
+.info__list {
+  padding: 0;
+  margin: -0.8rem 0 3.2rem;
+  list-style: none;
+  max-width: 60rem;
+  column-count: 2;
+}
+
+.info__list:last-child {
+  margin-bottom: -0.8rem;
+}
+
+@media (max-width: 767px) {
+  .info__list {
+    column-count: 1;
+    margin-bottom: 2.2rem;
+  }
+}

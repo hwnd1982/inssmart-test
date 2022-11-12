@@ -1,0 +1,13 @@
+.info__subtitle {
+  margin: 0 0 2rem;
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: $main;
+}
+
+@media (max-width: 767px) {
+  .info__subtitle {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+  }
+}

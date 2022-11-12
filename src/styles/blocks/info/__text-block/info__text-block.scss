@@ -1,0 +1,11 @@
+.info__text-block {
+  max-width: 42.5rem;
+  align-self: flex-end;
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 767px) {
+  .info__text-block {
+    margin-bottom: 2.9rem;
+  }
+}

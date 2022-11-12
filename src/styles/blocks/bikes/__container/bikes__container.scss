@@ -1,0 +1,10 @@
+.bikes__container {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+}
+
+@media (max-width: 767px) {
+  .bikes__container {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,29 @@
+.control {
+  background: $grey;
+  border-radius: 2rem 2rem 0 0;
+  padding: 2.2rem 2.4rem 2.4rem;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 2.2rem;
+  color: $main;
+  // ellipsis
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.control:focus {
+  outline: 0.1rem solid;
+  outline-color: $white;
+  outline-offset: -3px;
+}
+
+@media (max-width: 767px) {
+  .control {
+    padding: 2.5rem 2rem 2.2rem;
+    font-size: 2.0rem;
+    border-radius: 2rem;
+    background: $white;
+  }
+}

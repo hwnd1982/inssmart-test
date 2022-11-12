@@ -1,0 +1,7 @@
+.info__list_type_numeric > .info__item {
+  counter-increment: count;
+}
+
+.info__list_type_numeric > .info__item::before {
+  content: counter(count) '.';
+}

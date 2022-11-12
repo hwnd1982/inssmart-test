@@ -1,0 +1,9 @@
+.bikes {
+  padding: 8.1rem 0;
+}
+
+@media (max-width: 767px) {
+  .bikes {
+    padding: 4rem 0 5rem;
+  }
+}

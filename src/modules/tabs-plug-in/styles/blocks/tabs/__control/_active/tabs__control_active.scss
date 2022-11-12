@@ -1,0 +1,28 @@
+.tabs__control_active {
+  background-color: $white;
+  color: $blue;
+}
+
+.tabs__control_active+.tabs__info {
+  display: flex;
+}
+
+.tabs__control_active:focus {
+  outline-color: $grey;
+}
+
+
+@media (max-width: 767px) {
+  .tabs__control_active {
+    border-radius: 2rem 2rem 0 0;
+    margin: 0;
+  }
+
+  .tabs__control_active+.tabs__info {
+    order: 0;
+  }
+
+  .tabs__control_active::after {
+    transform: rotate(180deg);
+  }
+}

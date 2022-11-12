@@ -1,0 +1,12 @@
+.info__divider {
+  height: 0.1rem;
+  width: 100%;
+  background-color: $grey;
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 767px) {
+  .info__divider {
+    margin-bottom: 3.1rem
+  }
+}

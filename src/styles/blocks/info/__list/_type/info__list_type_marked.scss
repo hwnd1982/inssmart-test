@@ -1,0 +1,10 @@
+.info__list_type_marked > .info__item::before {
+  content: '';
+  display: inline-block;
+  vertical-align: text-bottom;
+  width: 2rem;
+  height: 2rem;
+  background-image: url('../img/bike.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,45 @@
+.animate_type_error {
+  -webkit-animation-name: error;
+  animation-name: error;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  border: 1px solid violet;
+}
+
+.animate_type_error:focus {
+  border-color: transparent;
+  outline: 1px solid violet;
+  outline-offset: -0.1rem;
+}
+
+@keyframes error {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0)
+  }
+
+  6.5% {
+    -webkit-transform: translateX(-0.6rem) rotateY(-9deg);
+    transform: translateX(-0.6rem) rotateY(-9deg)
+  }
+
+  18.5% {
+    -webkit-transform: translateX(0.5rem) rotateY(7deg);
+    transform: translateX(0.5rem) rotateY(7deg)
+  }
+
+  31.5% {
+    -webkit-transform: translateX(-0.3rem) rotateY(-5deg);
+    transform: translateX(-0.3rem) rotateY(-5deg)
+  }
+
+  43.5% {
+    -webkit-transform: translateX(0.2rem) rotateY(3deg);
+    transform: translateX(0.2rem) rotateY(3deg)
+  }
+
+  50% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0)
+  }
+}

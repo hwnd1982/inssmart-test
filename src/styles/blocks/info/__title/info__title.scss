@@ -1,0 +1,12 @@
+.info__title {
+  font-weight: 700;
+  font-size: 2.6rem;
+  margin: 0 0 2rem;
+}
+
+
+@media (max-width: 767px) {
+  .info__title {
+    font-size: 2.4rem;
+  }
+}

@@ -1,0 +1,39 @@
+@import '../fonts/Montserrat/Montserrat.css';
+@import './vars.scss';
+@import './default.scss';
+@import './blocks/visually-hidden/visually-hidden.scss';
+
+@import './blocks/container/container.scss';
+
+@import './blocks/input/input.scss';
+
+@import './blocks/button/button.scss';
+@import './blocks/button/_type/button_type_main.scss';
+@import './blocks/button/_type/button_type_alt.scss';
+
+@import './blocks/bikes/bikes.scss';
+@import './blocks/bikes/__container/bikes__container.scss';
+@import './blocks/bikes/__tabs/bikes__tabs.scss';
+
+@import './blocks/control/control.scss';
+
+@import './blocks/info/info.scss';
+@import './blocks/info/__img/info__img.scss';
+@import './blocks/info/__text-block/info__text-block.scss';
+@import './blocks/info/__title/info__title.scss';
+@import './blocks/info/__text/info__text.scss';
+@import './blocks/info/__subtitle/info__subtitle.scss';
+@import './blocks/info/__divider/info__divider.scss';
+@import './blocks/info/__list/info__list.scss';
+@import './blocks/info/__list/_type/info__list_type_numeric.scss';
+@import './blocks/info/__list/_type/info__list_type_marked.scss';
+@import './blocks/info/__item/info__item.scss';
+
+@import './blocks/extra/extra.scss';
+@import './blocks/extra/__subtitle/extra__subtitle.scss';
+@import './blocks/extra/__form/extra__form.scss';
+@import './blocks/extra/__input/extra__input.scss';
+@import './blocks/extra/__buttons/extra__buttons.scss';
+
+@import './blocks/animate/animate.scss';
+@import './blocks/animate/_type/animate_type_error.scss';

@@ -1,0 +1,12 @@
+.extra__input {
+  width: 35.1rem;
+  margin-right: 2rem;
+}
+
+@media (max-width: 767px) {
+  .extra__input {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1.4rem;
+  }
+}

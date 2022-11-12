@@ -1,0 +1,13 @@
+.button_type_alt {
+  background-color: $white;
+  color: $main;
+  border-color: $white;
+}
+
+.button_type_alt:hover {
+  color: $hover;
+}
+
+.button_type_alt:active {
+  color: $active;
+}
